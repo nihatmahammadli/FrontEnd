@@ -1,0 +1,219 @@
+@import url('https://fonts..com/css2?=Montserrat:wght@400;600&family=Roboto+Slab&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #212529;
+    padding: 5px 0px;
+}
+header .in-header{
+    margin:auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo-header{
+    width: 170px;
+    cursor: pointer;
+}
+header .logo-header img{
+    margin: 20px 15px;
+}
+header nav{
+    color: white;
+}
+header nav ul{
+    display: flex;
+    margin: 0px 20px;
+}
+ ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+    font-family:  'Montserrat', sans-serif;
+}
+.header-img img{
+    width: 1310px;
+    height: 800px;
+}
+main .texts{
+    text-align: center;
+    margin-top: -535px;
+    color: white;
+}
+main .texts .Welcome{
+    margin-bottom: 16px;
+    font-style: italic;
+    font-size: 2.25rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+main .texts .MEET{
+    font: optional;
+    font-size: 4.45rem;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 900;
+}
+main .button{
+    margin-top: 80px;
+    text-align: center;
+}
+main .button button{
+    padding: 20px 40px;
+    background-color: #FFC800;
+    color: white;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+main .services{
+    margin-top: 330px;
+    text-align: center;
+}
+main .services .serv{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+main .services .textd{
+    color: grey;
+    font-style: italic;
+    font-size: larger;
+    font-family: 'Roboto Slab', serif;  
+}
+main .icons img{
+    background-color: #FFC800;
+    width: 150px;
+    padding: 32px 40px;
+    border-radius: 60px;
+    
+}
+main .icons{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 220px;
+}
+main .icons h4, p{
+    margin-top: 20px;
+}
+main .icons h4{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 25px
+}
+main .icons  p{
+    text-align: center;
+    margin-right: 120px;
+    margin-left: -80px;
+    color: grey;
+    font-size: larger;
+    font-family: 'Roboto Slab', serif;  
+}
+main .icons .icon-2 h4{
+    margin-left: -35px;
+}
+main .PORTFOLIO .porth div{
+    text-align: center;
+    margin-top: 180px;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+main .PORTFOLIO .porth p{
+    text-align: center;
+    color: grey;
+    font-style: italic;
+    font-size: larger;
+}
+main .images{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+main .images .img1{
+    margin-right: -80px;
+    background-color: whitesmoke;
+    background-size: auto;
+    cursor: pointer;
+}
+main .images .img2{
+    background-color: whitesmoke;
+    background-size: auto;
+    cursor: pointer;
+}
+main .images .img3{
+    margin-left: -80px;
+    background-color: whitesmoke;
+    background-size: auto;
+    cursor: pointer;
+}
+main .images img{
+    width: 356px;
+}
+main .images div{
+    text-align: center;
+}
+main .images .thre, .exp, .fin{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+main .images .ill, .grap, .iden{
+    color: #6c757d;
+    font-style: italic;
+    font-family: 'Roboto Slab', serif; 
+}
+main .images-2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+main .images-2 img{
+    width: 356px;
+}
+main .images-2 .img4{
+    margin-right: -80px;
+    background-color: whitesmoke;
+    background-size: auto;
+    cursor: pointer;
+}
+main .images-2 .img5{
+    background-color: whitesmoke;
+    cursor: pointer;
+
+}
+main .images-2 .img6{
+    margin-left: -80px;
+    background-color: whitesmoke;
+    cursor: pointer;
+
+}
+main .images-2 .line, .south, .wind{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+main .images-2 .bran, .webs, .photo{
+    color: #6c757d;
+    font-style: italic;
+    font-family: 'Roboto Slab', serif; }
+    main .images-2 div{
+        text-align: center;}
