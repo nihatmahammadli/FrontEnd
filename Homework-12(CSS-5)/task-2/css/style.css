@@ -1,0 +1,42 @@
+.marketlist {
+  width: 500px;
+  margin: 20px 200px;
+}
+.marketlist .dontforget {
+  font-size: 30px;
+}
+.marketlist {
+  list-style: none;
+}
+.marketlist .dontforget:first-child {
+  background-color: aquamarine;
+  font-style: italic;
+}
+.marketlist .dontforget:nth-child(2) {
+  background-color: tomato;
+  color: whitesmoke;
+}
+.marketlist .dontforget:nth-child(3) {
+  background-color: teal;
+  text-decoration: underline;
+}
+.marketlist .dontforget:nth-child(4) {
+  background-color: violet;
+  text-align: center;
+}
+.marketlist .dontforget:nth-child(5) {
+  background-color: seagreen;
+  text-align: right;
+}
+.marketlist .dontforget:nth-child(6) {
+  background-color: salmon;
+  font-weight: 900;
+}
+.marketlist .dontforget:nth-child(7) {
+  background-color: chocolate;
+  font-size: larger;
+}
+.marketlist .dontforget:last-child {
+  background-color: crimson;
+  font-family: fantasy;
+}

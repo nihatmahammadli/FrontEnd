@@ -1,0 +1,12 @@
+.test {
+  width: 60%;
+}
+.test p::first-line {
+  background-color: brown;
+  color: whitesmoke;
+  font-size: 20px;
+  font-style: italic;
+}
+.test p {
+  background-color: chocolate;
+}

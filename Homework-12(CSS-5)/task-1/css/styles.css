@@ -1,0 +1,12 @@
+.story p {
+  margin: 0px 100px 0px 100px;
+}
+.story p::first-letter {
+  color: brown;
+  font-size: 80px;
+  text-decoration: underline;
+}
+.story {
+  width: 100%;
+  text-align: center;
+}

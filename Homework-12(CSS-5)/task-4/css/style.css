@@ -1,0 +1,20 @@
+button:hover {
+  background-color: #04aa6d;
+}
+
+button {
+  background-color: #008cba;
+  font-style: italic;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 200px 500px;
+  border-radius: 10px;
+  border: 5px solid rgb(21, 206, 114);
+  transition-duration: 0.6s; /* ! duration idi məncə qarışdırmamışamsa */
+  cursor: pointer;
+}
