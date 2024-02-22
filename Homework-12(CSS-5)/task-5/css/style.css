@@ -23,7 +23,7 @@ header .all-header .icon-head .fa-face-meh {
   padding-right: 20px;
 }
 header .all-header nav ul {
-  font-size: 18px;
+  font-size: 20px;
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -39,4 +39,44 @@ header .all-header .heads {
   font-weight: 600;
   font-style: normal;
   padding-right: 20px;
+  font-size: 20px;
+}
+main .boxes .dreams {
+  position: relative;
+  width: 40%;
+  height: 500px;
+  border: 3px solid #2e4f4f;
+  margin: 20px 10px;
+}
+main .boxes .dreams img {
+  position: absolute;
+  width: 40%;
+  border: 1px solid white;
+}
+main .boxes .dreams img:nth-child(2) {
+  position: absolute;
+  left: 210px;
+  width: 315px;
+  height: 359px;
+  border: 1px solid white;
+}
+main .boxes .dreams img:nth-child(3) {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 314px;
+  height: 150px;
+  border: 1px solid white;
+}
+main .boxes .dreams img:last-child {
+  position: absolute;
+  bottom: 0;
+  border: 1px solid white;
+}
+main .boxes {
+  display: flex;
+  justify-content: space-around;
+}
+main .boxes .video {
+  margin: 100px 20px;
 }
