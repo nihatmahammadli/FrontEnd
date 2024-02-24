@@ -11,15 +11,22 @@ header nav ul {
   list-style: none;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
-  cursor: pointer;
 }
 header nav ul li {
   padding: 30px 20px;
+  cursor: pointer;
+}
+header nav ul li:hover {
+  color: #f2a90d;
 }
 header nav ul li:first-child {
   color: #876cc4;
 }
-
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
 /* ! header bitti main basladi */
 
 main .background {
@@ -59,6 +66,7 @@ main .background .texts .forms {
   width: 500px;
   height: 80px;
   background-color: #1111;
+  margin-bottom: 30px;
 }
 main .background .texts .forms form {
   text-align: center;
@@ -104,8 +112,323 @@ main .background .texts a {
   font-family: "Open Sans", sans-serif;
   margin-left: 25px;
 }
+main .background .texts a:hover {
+  color: #876cc4;
+}
 main .background .texts .coms {
   margin-left: 90px;
   margin-top: 10px;
   font-size: 18px;
+}
+main .background .shopicons {
+  padding-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Open Sans", sans-serif;
+  padding-left: 160px;
+  padding-right: 160px;
+  align-items: center;
+}
+main .background .shopicons img {
+  margin: 0px 60px;
+}
+main .background .shopicons img:first-child {
+  width: 90px;
+  height: 80px;
+  opacity: 0.4;
+}
+main .background .shopicons img:nth-child(2) {
+  width: 110px;
+  height: 67px;
+  opacity: 0.4;
+}
+main .background .shopicons img:nth-child(3) {
+  width: 105px;
+  height: 60px;
+  opacity: 0.4;
+}
+main .background .shopicons img:last-child {
+  opacity: 0.4;
+}
+/* ! main birinci hisse bitti ikinci basliyir */
+
+main .digital-market {
+  background-color: #f4f8fb;
+  margin-top: 260px;
+  height: 600px;
+}
+main .digital-market .market-texts {
+  width: 50%;
+  text-align: center;
+  padding-top: 70px;
+}
+main .digital-market .market-texts h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: "Ubuntu", sans-serif;
+  text-align: left;
+  padding-left: 90px;
+}
+main .digital-market .market-texts p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 90px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+}
+main .digital-market .market-texts .read {
+  text-align: left;
+  margin: 30px;
+  margin-left: 50px;
+  padding: 15px 39px 15px 37px;
+}
+main .digital-market .market-texts button {
+  background-color: #876cc4;
+  color: white;
+  border: none;
+  padding-top: 17px;
+  padding-bottom: 37px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-top: -15px;
+  cursor: pointer;
+}
+main .digital-market .all-images {
+  width: 70%;
+  height: 300px;
+  margin-left: 600px;
+  margin-top: -500px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 655px;
+}
+main .digital-market .all-images .globe {
+  background-color: white;
+  height: 240px;
+  width: 280px;
+  margin-right: 7px;
+  border-radius: 20px;
+  box-shadow: 5px 2px 10px 12px #1111;
+}
+main .digital-market .all-images .globe i {
+  font-size: 40px;
+  background-color: #876cc4;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border-radius: 50px;
+}
+main .digital-market .all-images .globe p {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+main .digital-market .all-images .light i {
+  font-size: 40px;
+  background-color: #f2a90d;
+  color: white;
+  padding: 15px 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+main .digital-market .all-images .light p {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+main .digital-market .all-images .light {
+  background-color: white;
+  height: 240px;
+  width: 280px;
+  margin-right: 25px;
+  border-radius: 20px;
+  box-shadow: 9px 2px 10px 12px #1111;
+}
+
+main .digital-market .all-images .gear i {
+  font-size: 40px;
+  background-color: #97bed8;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border-radius: 50px;
+}
+main .digital-market .all-images .gear p {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+main .digital-market .all-images .gear {
+  background-color: white;
+  height: 240px;
+  width: 280px;
+  margin-right: 25px;
+  border-radius: 20px;
+  box-shadow: 9px 2px 10px 12px #1111;
+}
+
+main .digital-market .all-images .map i {
+  font-size: 40px;
+  background-color: #98d697;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border-radius: 50px;
+}
+main .digital-market .all-images .map p {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  padding: 0px 5px;
+}
+main .digital-market .all-images .map {
+  background-color: white;
+  height: 240px;
+  width: 280px;
+  margin-right: 25px;
+  border-radius: 20px;
+  box-shadow: 5px 2px 10px 12px #1111;
+  margin-left: -19px;
+}
+/* ! section 2 bitti 3 basladi  */
+main .phone-img {
+  width: 100%;
+  height: 700px;
+  background-image: url("https://assets.nicepagecdn.com/11a8ddce/4242949/images/Untitled-28.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .phone-img .phone-img-contain img {
+  width: 550px;
+  height: 494px;
+  margin-left: 90px;
+  margin-top: 85px;
+}
+main .phone-texts {
+  margin-left: 680px;
+  margin-top: -400px;
+}
+main .phone-texts h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+main .phone-texts p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125rem;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+}
+main .phone-texts button {
+  background-color: #876cc4;
+  color: white;
+  border: none;
+  padding-top: 17px;
+  padding-bottom: 37px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-top: -15px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+/* ! sectiom 3 biti 4 basladi */
+main .convert {
+  background-color: #97bed8;
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+main .convert .convert-contain {
+  position: absolute;
+  left: 83px;
+  top: 60px;
+  text-align: center;
+  background-color: #eeecea;
+  display: flex;
+  padding: 60px 68px;
+  border-radius: 20px;
+  align-items: center;
+}
+main .convert .convert-contain h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: left;
+}
+main .convert .convert-contain button {
+  background-color: #876cc4;
+  color: white;
+  border: none;
+  padding-top: 17px;
+  padding-bottom: 37px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-top: -15px;
+  margin-top: 30px;
+  cursor: pointer;
+  margin-left: 220px;
+  margin-bottom: 20px;
+}
+/* ! section 3 bitti 4 basladi */
+main .boy-image {
+  width: 100%;
+  height: 540px;
+  background-color: #eeecea;
+}
+main .boy-image .boy-texts {
+  width: 70%;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+main .boy-image .boy-texts div {
+  margin-top: 80px;
+  margin-left: 80px;
+  background-color: white;
+  padding-bottom: 50px;
+  border-radius: 20px;
+}
+main .boy-image .boy-texts div h2,
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+main .boy-image .boy-texts div h2 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  color: #f2a90d;
+  font-family: "Ubuntu", sans-serif;
 }
