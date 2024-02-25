@@ -707,7 +707,7 @@ main .analysis .analysis-texts .input-submit{
 main .orange{
   background-color: #f2a90d;
   width: 100%;
-  height: 400px;
+  height: 430px;
   position: relative;
 }
 main .orange .orange-texts{
@@ -766,4 +766,122 @@ main .orange .orange-texts button{
   margin-top: -15px;
   cursor: pointer;
   margin-top: 20px;
+}
+/* ! section 8 bitti 9 basladi */
+/*     background-image: url(//images01.nicepagecdn.com/a1389d7…/af5743e…/pexels-photo-6000710.jpeg?version=);
+ackground-image: url(//images01.nicepagecdn.com/a1389d7…/12152ec…/pexels-photo-4621785.jpeg?version=); */
+
+main .last-section{
+  background-color: #f4f8fb;
+  height: 600px;
+}
+main .last-section .last-texts{
+  text-align: center;
+  padding-top: 60px;
+
+}
+main .last-section .last-texts h2{
+    font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+main .last-section .last-texts p{
+  font-size: 1.125rem;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 40px;
+}
+main .last-section .last-boxes{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  gap: 30px;
+}
+main .last-section .last-boxes .box-1{
+  background-color: white;
+  padding: 40px 60px 10px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px 4px #1111;
+}
+main .last-section .last-boxes .box-2{
+  background-color: white;
+  padding: 40px 60px 10px;
+    border-radius: 20px;
+      box-shadow: 4px 4px 4px 4px #1111;
+}
+main .last-section .last-boxes i{
+  font-size: 40px;
+  color: #f2a90d;
+  margin-bottom: 20px;
+}
+main .last-section .last-boxes p{
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px;
+  letter-spacing: 1.1;
+}
+main .last-section .last-boxes .p-boxes{
+  margin-left: 70px;
+  margin-top: 25px;
+}
+
+main .last-section .last-boxes .almeda{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+}
+main .last-section .last-boxes .company{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+}
+main .last-button button{
+  background-color: #876cc4;
+  color: white;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 20px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-top: -15px;
+  cursor: pointer;
+  margin-left: 560px;
+  margin-top: -90px;
+}
+main .last-button{
+  background-color: #f4f8fb;
+  padding-bottom: 70px;
+}
+/* ! sectionlar bitti footer */
+footer{
+  background-color: #333333;
+  height: 240px;
+}
+footer p{
+  text-align: center;
+  color: white;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 50px;
+}
+footer .footer-p1{
+  font-size: 0.875rem;
+}
+footer .footer-p2{
+  font-size: 13px;
+  margin-top: 40px;
+}
+footer .footer-p2 a{
+  color: #876cc4;
+  font-size: 13px;
+}
+
+body .gears .fa-gears{
+  font-size: 60px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  color: #97bed8;
 }
