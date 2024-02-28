@@ -60,10 +60,11 @@ main .background .texts p {
   margin-right: 3px;
   font-size: 1.125rem;
   margin: 20px 0 0 0;
+  letter-spacing: 0.3px;
 }
 main .background .texts .forms {
   margin-top: 30px;
-  width: 500px;
+  width: 518x px;
   height: 80px;
   background-color: #1111;
   margin-bottom: 30px;
@@ -202,9 +203,7 @@ main .digital-market .market-texts button {
   cursor: pointer;
 }
 main .digital-market .all-images {
-  width: 70%;
   height: 300px;
-  margin-left: 600px;
   margin-top: -500px;
   text-align: center;
   display: flex;
@@ -369,7 +368,7 @@ main .convert {
 }
 main .convert .convert-contain {
   position: absolute;
-  left: 83px;
+  left: 75px;
   top: 60px;
   text-align: center;
   background-color: #eeecea;
@@ -410,11 +409,11 @@ main .boy-image {
   background-color: #f4f8fb;
 }
 main .boy-image .boy-texts {
-  width: 60%;
+  width: 50%;
   height: 300px;
   text-align: center;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
   margin-left: 55px;
   padding-top: 50px;
 }
@@ -463,9 +462,11 @@ main .image-boys img {
   margin-left: 670px;
   margin-top: -250px;
 }
-/* ! section 4 bitti 5 basladi */
+
+/* ! section 5 basladi */
+
 main .modern-office .modern-texts {
-  text-align: center;
+  text-align: center;  
 }
 main .modern-office .modern-texts h2 {
   font-family: "Ubuntu", sans-serif;
@@ -491,7 +492,7 @@ main .modern-office .modern-texts span {
   font-weight: 700;
 }
 main .modern-office .modern-imgs img {
-  width: 600px;
+  width: 646px;
   height: 400px;
   cursor: pointer;
   position: relative;
@@ -512,7 +513,6 @@ main .modern-office .modern-imgs .modern-icon i {
   font-size: 25px;
   position: absolute;
   top: 3870px;
-
   padding: 10px 15px 10px 15px;
   border-radius: 50%;
   cursor: pointer;
@@ -548,20 +548,69 @@ main .need-digital .digital-texts p {
 }
 
 main .need-digital .need-icons {
-  display: grid;
-  grid-template-columns: repeat(3, calc(33.3333% - 13.3333px));
   text-align: center;
   margin-top: 20px;
   align-items: center;
-  margin-right: 100px;
+  margin-right: 90px;
+  margin-left: 90px;
 }
-main .need-digital .need-icons div {
+main .need-digital .need-icons .div-3-1{
+  width: 100%;
+  display: flex;
+}
+main .need-digital .need-icons .div-3-1-1 {
   background-color: white;
-  width: 370px;
+  width: 500px;
   height: 240px;
   border-radius: 30px;
   margin-top: 20px;
-  margin-left: 80px;
+  box-shadow: 4px 4px 4px 4px #1111;
+}
+main .need-digital .need-icons .div-3-1-2 {
+  background-color: white;
+  width: 500px;
+  height: 240px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: 4px 4px 4px 4px #1111;
+}
+main .need-digital .need-icons .div-3-1-3 {
+  background-color: white;
+  width: 500px;
+  height: 240px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: 4px 4px 4px 4px #1111;
+}
+main .need-digital .need-icons .div-3-2{
+  display: flex;
+}
+main .need-digital .need-icons .div-3-2-1 {
+  background-color: white;
+  width: 500px;
+  height: 240px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 4px 4px 4px 4px #1111;
+}
+main .need-digital .need-icons .div-3-2-2 {
+  background-color: white;
+  width: 500px;
+  height: 240px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: 4px 4px 4px 4px #1111;
+}
+main .need-digital .need-icons .div-3-2-3 {
+  background-color: white;
+  width: 500px;
+  height: 240px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
   box-shadow: 4px 4px 4px 4px #1111;
 }
 main .need-digital .need-icons div i {
@@ -623,13 +672,13 @@ main .analysis .black-boy-image img {
 }
 main .analysis .analysis-texts{
   margin-top: 100px;
+  margin-right: 112px;
 }
 main .analysis .analysis-texts h2{
   font-family: "Ubuntu", sans-serif;
   font-size: 3rem;
   font-weight: 400;
-  margin-right: 140px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   line-height: 1.1;
   margin-top: -15px;
 }
@@ -637,7 +686,7 @@ main .analysis .analysis-texts p{
   font-family: "Open Sans", sans-serif;
   font-size: 1.125rem;
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   line-height: 30px;
   letter-spacing: 1.1;
 }
@@ -700,12 +749,12 @@ main .analysis .analysis-texts .input-submit{
   font-weight: 700;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 8px;
   margin-left: 13px;
 }
 /* ! section 7 bitti 8 basladi */
 main .orange{
-  background-color: #f2a90d;
+  background-color: #f2a90d;   /* ! burada positiondan isdifade etmidem deye header arxasina dusur duzeltmeyin yolu yox */
   width: 100%;
   height: 430px;
   position: relative;
@@ -713,7 +762,7 @@ main .orange{
 main .orange .orange-texts{
   position: absolute;
   text-align: center;
-  left: 80px;
+  left: 75px;           /* ! demisen burda box ortada olmalidi amma soldadi lakin  mende ele deyil tamamile normal ve ortada gorsenir axi */
   top: 50px;
   background-color: white;
   padding-top: 120px;
@@ -747,8 +796,7 @@ main .orange .orange-texts a{
   font-family: "Open Sans", sans-serif;
 }
 main .orange .orange-texts a:hover{
-  color: #f2a90d;
-  
+  color: #f2a90d; 
 }
 main .orange .orange-texts button{
   background-color: #876cc4;
@@ -767,9 +815,8 @@ main .orange .orange-texts button{
   cursor: pointer;
   margin-top: 20px;
 }
+
 /* ! section 8 bitti 9 basladi */
-/*     background-image: url(//images01.nicepagecdn.com/a1389d7…/af5743e…/pexels-photo-6000710.jpeg?version=);
-ackground-image: url(//images01.nicepagecdn.com/a1389d7…/12152ec…/pexels-photo-4621785.jpeg?version=); */
 
 main .last-section{
   background-color: #f4f8fb;
@@ -778,10 +825,9 @@ main .last-section{
 main .last-section .last-texts{
   text-align: center;
   padding-top: 60px;
-
 }
 main .last-section .last-texts h2{
-    font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 3rem;
   font-weight: 400;
   margin-bottom: 20px;
