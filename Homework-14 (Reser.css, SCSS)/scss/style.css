@@ -1,0 +1,141 @@
+.sec-1 {
+  background-color: #ffffff;
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+}
+.sec-1 .div-1 {
+  text-align: left;
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 123px 0 0 85px;
+}
+.sec-1 .div-1 .div-1-h2 {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  font-size: 2.25rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.sec-1 .div-1 .div-1-p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 23px;
+}
+.sec-1 .div-1 .div-1-a {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  border-bottom: 2px solid black;
+  border-width: 2px;
+  width: 82px;
+  padding-bottom: 5px;
+}
+.sec-1 .div-2 {
+  width: 600px;
+  display: flex;
+  margin-top: 85px;
+  margin-left: 6px;
+}
+.sec-1 .div-2 .div-in-1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #b23c8a;
+  color: white;
+  padding: 62px 11px;
+}
+.sec-1 .div-2 .div-in-1 h4 {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+.sec-1 .div-2 .div-in-1 .fa-democrat {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.sec-1 .div-2 .div-in-1 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  width: 210px;
+  line-height: 1.6;
+}
+.sec-1 .div-2 .div-in-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #6bc75d;
+  color: white;
+  padding: 62px 11px;
+  margin-left: 20px;
+}
+.sec-1 .div-2 .div-in-2 h4 {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+.sec-1 .div-2 .div-in-2 .fa-basket-shopping {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.sec-1 .div-2 .div-in-2 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  width: 210px;
+  line-height: 1.6;
+}
+.sec-1 .div-2 .div-in-3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #5abcbf;
+  color: white;
+  padding: 62px 11px;
+  padding-bottom: 65px;
+  margin-left: 20px;
+}
+.sec-1 .div-2 .div-in-3 h4 {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+.sec-1 .div-2 .div-in-3 .fa-child-reaching {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.sec-1 .div-2 .div-in-3 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  width: 210px;
+  line-height: 1.6;
+}
+
+footer {
+  margin-top: 65px;
+  text-align: center;
+  background-color: #333333;
+  color: white;
+  height: 65px;
+}
+footer a {
+  font-family: "Roboto", sans-serif;
+  color: #fed85f;
+  text-decoration: underline;
+  font-size: 12.8px;
+}
+footer p {
+  font-family: "Roboto", sans-serif;
+  padding-top: 22px;
+  font-size: 12.8px;
+}/*# sourceMappingURL=style.css.map */

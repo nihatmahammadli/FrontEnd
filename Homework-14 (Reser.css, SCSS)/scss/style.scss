@@ -1,0 +1,149 @@
+$h2_p_fontlarim: "Roboto Slab", sans-serif;
+$p_fontlarim: "Roboto" , sans-serif;
+
+.sec-1 {
+    background-color: #ffffff;
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    .div-1 {
+        text-align: left;
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin: 123px 0 0 85px;
+
+        .div-1-h2{
+            font-family: $h2_p_fontlarim;
+            font-weight: 300;
+            font-size: 2.25rem;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+        .div-1-p {
+            font-family: $p_fontlarim;
+            font-weight: 400;
+            line-height: 1.6;
+            font-size: 1rem;
+            margin-bottom: 23px;
+        }
+        .div-1-a {
+            font-weight: 400;
+            font-size: 16px;
+            font-family: $p_fontlarim;
+            letter-spacing: 1px;
+            border-bottom: 2px solid black;
+            border-width: 2px;
+            width: 82px;
+            padding-bottom: 5px;
+        }
+    }
+    .div-2{
+        width: 600px;
+        display: flex;
+        margin-top: 85px;
+        margin-left: 6px;
+        .div-in-1 {
+            display: flex;
+            flex-direction: column;
+            background-color: #b23c8a;
+            color: white;
+            padding: 62px 11px;
+            h4 {
+                font-family: $h2_p_fontlarim;
+                font-size: 1.5rem;
+                font-weight: 300;
+                margin-bottom: 20px;
+                line-height: 1.2;
+                }
+            .fa-democrat {
+                font-size: 45px;
+                margin-bottom: 30px;
+            }
+            p {
+                font-family: $p_fontlarim;
+                font-size: 14px;
+                line-height: 23px;
+                width: 210px;
+                line-height: 1.6;
+            }
+        }
+        .div-in-2 {
+            display: flex;
+            flex-direction: column;
+            background-color: #6bc75d;
+            color: white;
+            padding: 62px 11px;
+            margin-left: 20px;
+            h4 {
+                font-family: $h2_p_fontlarim;
+                font-size: 1.5rem;
+                font-weight: 300;
+                margin-bottom: 20px;
+                line-height: 1.2;
+
+            }
+            .fa-basket-shopping {
+                font-size: 45px;
+                margin-bottom: 30px;
+            }
+            p {
+                font-family: $p_fontlarim;
+                font-size: 14px;
+                line-height: 23px;
+                width: 210px;
+                line-height: 1.6;
+
+            }
+        }
+        .div-in-3 {
+            display: flex;
+            flex-direction: column;
+            background-color: #5abcbf;
+            color: white;
+            padding: 62px 11px;
+            padding-bottom: 65px;
+            margin-left: 20px;
+            h4 {
+                font-family: $h2_p_fontlarim;
+                font-size: 1.5rem;
+                font-weight: 300;
+                margin-bottom: 20px;
+                line-height: 1.2;
+
+            }
+            .fa-child-reaching {
+                font-size: 45px;
+                margin-bottom: 30px;
+            }
+            p {
+                font-family: $p_fontlarim;
+                font-size: 14px;
+                line-height: 23px;
+                width: 210px;
+                line-height: 1.6;
+
+            }
+        }
+    }
+}
+ footer{
+   margin-top: 65px;
+   text-align: center;
+   background-color: #333333;
+   color: white; 
+   height: 65px;
+   a {
+    font-family: $p_fontlarim;
+    color: #fed85f;
+    text-decoration: underline;
+    font-size: 12.8px;
+   }
+   p {
+    font-family: $p_fontlarim;
+    padding-top: 22px;
+    font-size: 12.8px;
+   }
+ }
+
