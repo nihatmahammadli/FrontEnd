@@ -1,0 +1,17 @@
+@media only screen and (max-width: 600px) {
+
+
+    ul{
+        visibility: hidden;
+    }
+    i {
+        visibility: visible !important;
+        cursor: pointer;
+    }
+    .div-logo {
+        gap: 200px;
+    }
+    header {
+        width: 620px;
+    }
+}
