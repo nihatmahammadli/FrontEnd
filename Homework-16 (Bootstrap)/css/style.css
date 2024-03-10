@@ -1,0 +1,61 @@
+    main .card {
+        margin: 20px 0 0 20px;   
+        }
+main .sec-1 {
+    display: flex;
+    justify-content: space-between;
+}   
+main .image-1 {
+    width: 600px !important;
+    margin: 80px 200px 0 0;
+}
+main .sec-2 {
+    background-color: #212529;
+    padding: 15px  10px 3px 10px;
+    margin-top: -9px;
+}
+main .sec-3 {
+    padding-top: 20px;
+    background-color: #ced4da;
+    padding-bottom: 3px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+main #sec-5 {
+    background-color: black;
+    padding-top: 10px;
+}
+main #sec-5 img{
+    width: 950px;
+    height: 550px;
+}
+main #sec-5  .text-bg-dark{
+    width: 900px;
+    background-color: black;
+}
+main #sec-6 {
+    background-color: black;
+    padding: 50px;
+}
+main #sec-6 .color-boxes{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse ;
+    margin: auto;
+}
+body .btn-outline-secondary{
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+}
+main #sec-7 iframe {
+    width: 1000px;
+    height: 600px;
+    margin-left: 150px;
+}
+main #sec-7 .btn {
+    margin: 20px;
+}

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
+  crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
+  integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" 
+  crossorigin="anonymous">
+  </script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="resposive/responsive.css">
+  <title>Crispypov</title>
+</head>
+<body>
+  <a href="#sec-1">
+    <button type="button" class="btn btn-outline-secondary">
+    manatdan başlığa
+    </button>
+  </a>
+  <header>
+    <nav data-bs-theme="dark" class="navbar navbar-expand-lg bg-body-tertiary ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">CrispyPov!</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sec-1">Əsas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>  
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Kiməm Mən?
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#sec-4">Haqqımda</a></li>
+                <li><a class="dropdown-item" href="#">Əlaqə</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">İş birliyi! </a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="sec-1" class="sec-1 p-3 mb-2 bg-black text-white">
+        <div class="card" data-bs-theme="dark" style="width: 18rem;">
+      <img src="./img/mee.jpg " class="card-img-top" alt="me">
+      <div class="card-body">
+        <h5 class="card-title">Nihat Məhəmmədli</h5>
+        <p class="card-text">Xüsusi heç bir yanım yoxdur ama 
+          elədiyim bu işi sevirəm :)
+        </p>
+        <a href="https://www.instagram.com/justnihaty/" target="_blank" class="btn btn-primary">İnstagram</a>
+      </div>
+    </div>
+    <div class="image-1">
+      <img src="./img/sharingan.jpg" class="img-fluid" alt="...">
+    </div>
+    </section>
+    <section class="sec-2" >
+      <div class="alert alert-dark" role="alert" >
+        Bu website tamamilə öz haqqımda və <a href="https://getbootstrap.com" target="_blank" class="alert-link">bootstrap</a> vasitəsilə hazırlanmışdır.
+      </div>
+    </section>
+    <section class="sec-3">
+      <dl class="row" style="background-color: #ced4da; margin-right: 0px; margin-left: 13px;"    >
+        <dt class="col-sm-3">Əsas məsələ, kiməm Mən?</dt>
+        <dd class="col-sm-9">Mən, bir daha: Nihat Məhəmmədli</dd>
+        <dt class="col-sm-3">Ümumi məlumat:</dt>
+        <dd class="col-sm-9">
+          <p>18 yaşım və böyük hədəflərim var.</p>
+          <p>Bunlar arasında başqalarından fərqli şəkildə "Front-End Developer" olmaqda var :D</p>
+        </dd>
+      
+        <dt class="col-sm-3">Təhsil:</dt>
+        <dd class="col-sm-9">Azərbaycan Dövlət Neft və Sənaye Universteti (Fakültə: Elektrik və elektronika mühəndisliyi)</dd>
+      
+        <dt class="col-sm-3 text-truncate">Hobbies:</dt>
+        <dd class="col-sm-9">Çox zaman fərqli bir şeylər yoxlamağı sevirəm və bunlardan aşağıda bəhs edəcəm.</dd>
+      
+        <dt class="col-sm-3">Nəhayət:</dt>
+        <dd class="col-sm-9">
+          <dl class="row">
+            <dt class="col-sm-4">Sonda deyə bilərəm:</dt>
+            <dd class="col-sm-8">"Örtülü responsivlik kodu pozar.."</dd>
+          </dl>
+        </dd>
+      </dl>
+    </section> 
+    <section id="sec-4">
+  <div class="accordion accordion-flush" id="accordionFlushExample" data-bs-theme="dark">
+      <div class="accordion-item" >
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Niyə məhz "Front-End Developer"?    
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Əslində heç vaxt <code>Front-End</code> 
+            öyrənəcəyimi düşünməzdim. Ama ani bir qərarla başladıqdan sonra 
+            gördüm ki sevdiyim iş bu ola bilər və elədə oldu. <br>
+            Dizayn və kod yazmağı bir arada etmək tamda mənim üçün yaradılmış 
+            kimi ama daha çox efor sərf etməliyəm və bu işi sevdiyim və edərkən
+            məni yormadığı üçün davam etdirəcəm. 
+            <code>(JavaScript)</code> öyrənməmiş deyirəm hashah.
+          </div>
+        </div>
+      </div>  
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Hobbies
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Dediyim kimi çoxlu hobbilərim var və gün keçdikcə artmağa 
+            davam edir. Ama ən əsasları, kitab oxumaq xüsusi ilə <code> 
+              (klassik və fəlsəfi ama son günlərdə romanlar)</code>, anime 
+              və manga oxumaq, yeni bir şeylər öyrənmək, skate sürmək, 
+              Contra dinləmək hah və hər şeyi tək etmək.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Ciddi mövzular..
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+              Bildirdiyim kimi  Asoiu da Elektrik və elektronika 
+              mühəndisliyi üzrə təhsil alıram. Zərifə Əliyeva
+              adına məktəb-liseydə orta təhsilimi başa vurmuşam. 
+              Ümumiyyətlə sadəcə Paşa Holdinq M10 təmsilçisi kimi 
+              bir neçə həftə fəaliyyət göstərmişəm, başqa ciddi bir 
+              təcrübəm yoxdur. 
+          </div>
+        </div>
+      </div>
+    </div>
+    </section> 
+    <section id="sec-5">
+      <div class="card text-bg-dark">
+        <img src="./img/Eternal Sharingan.png!d" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Anime: Naruto </h5>
+          <p class="card-text">"However Strong You Become, Never Seek To Bear Everything Alone. If You Do, Failure Is Certain".</p>
+          <p class="card-text"><small>Itachi Uchiha</small></p>
+        </div>
+      </div>
+    </section>
+    <section id="sec-6">
+      <div class="color-boxes">
+        <div class="card border-secondary mb-3" style="max-width: 18rem;">
+        <div class="card-header">Qısaca Mən</div>
+        <div class="card-body text-secondary">
+          <h5 class="card-title">Çalış və əldə et </h5>
+          <p class="card-text">
+            Fikrimcə şansla yox önəmli şeyləri sadəcə
+            çox çalışaraq əldə edə bilərik və əsas fəlsəfəmdə budur.
+            Çalış və əldə et.
+          </p>
+        </div>
+      </div>
+      <div class="card border-success mb-3" style="max-width: 18rem;">
+        <div class="card-header">Qısaca Mən</div>
+        <div class="card-body text-success">
+          <h5 class="card-title">Uğur problemi</h5>
+          <p class="card-text">
+           Uğur qazanmaq (öz bildiyim yoldan) mənim üçün ən önəmli
+           problemdir və bir gün bacaracam. Uğur qazanacam.
+          </p>
+        </div>
+      </div>
+      <div class="card border-danger mb-3" style="max-width: 18rem;">
+        <div class="card-header">Qısaca Mən</div>
+        <div class="card-body text-danger">
+          <h5 class="card-title">İş prinsipim</h5>
+          <p class="card-text">
+            Bir şeyi ciddi dərəcədə edəcəksəm onu əlimdən 
+            gələn ən yaxşı şəkildə və öz
+            fikirlərimə uyğun olaraq edirəm. </p>
+        </div>
+      </div>
+      </div>
+      
+    </section>
+    <section style="background-color: black;">
+    <span class="placeholder col-12 bg-danger"></span>
+    <span class="placeholder col-12 bg-success"></span>
+    <span class="placeholder col-12 bg-secondary"></span>
+    </section>
+    <section id="sec-7" style="background-color: black;  padding-top: 50px; ">
+      <div>
+        <iframe src="https://www.youtube.com/embed/azhzBF--Gw4?si=6JugKCyqQnm659y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+        <button class="btn btn-outline-danger" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Məni dəyişdirən anime:</button>
+      <div data-bs-theme="dark" class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+         <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Nədir bu "Naruto"</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+       </div>
+      <div class="offcanvas-body">
+        <p>Naurto manga olaraq 1999 cu ildən etibarən satışa çıxmış və
+          anime tarixində iz qoyan ilk 3 lüdən biridir. Ama tarixindən
+          danışmaycam. Öz fikirlərimi deyəcəm:
+          Anime içində dostluq, sözündən dönməzlik, bağlılıq, çətinlik,
+          xəyallar uğruna aparılan mübarizələr və daha bir dolu təsir
+          edici səhnələr həmçinin günümüz sosial medyasında mənasız və
+          vaxt itirici videolardan fərqli olaraq mesajlar verən tam bir 
+          əfsanə deyə bilərəm. Naruto həyata baxış bucağımı dəyişdirən və
+          mənə ən çox təsir edən "yapımdır". Çünki bir çox məqamda özümü
+          görürəm və günümüzün yalan və iyrənc dünyasından qaça bilirəm.
+          Və Mənə ən çox təsir edən səhnədən birində deyiləm sözlər:
+          "I'm not gonna run away, I never go back on my word! That's my Nindo, my Ninja Way!" 
+          - Naruto Uzumaki.
+        </p>
+      </div>
+    </div>
+      </div>
+    </section >
+    <section id="sec-8" style="background-color: black; height: 480px;">
+      <h2 style="color: #ced4da; margin-left: 30px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> Qeyd etməyi unutmayın :)</h2>
+      <div data-bs-theme="dark" style="width: 60%; padding-top: 30px; margin-left: 20px;">
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      
+      <div class="mb-3">
+        <label for="basic-url" class="form-label" style="color: #ced4da;">Your vanity URL</label>
+        <div class="input-group">
+          <span class="input-group-text" id="basic-addon3">Your email</span>
+          <input type="e" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+        </div>
+        <div class="form-text" id="basic-addon4">Example help text goes outside the input group.</div>
+      </div>
+      
+      <div class="input-group mb-3">
+        <span class="input-group-text">$</span>
+        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+        <span class="input-group-text">.00</span>
+      </div>
+      
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+        <span class="input-group-text">@</span>
+        <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+      </div>
+      
+      <div class="input-group">
+        <span class="input-group-text">With textarea</span>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+      </div>
+      <div class="input-group mb-3" style="margin-top: 20px;">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </div>
+    </div>
+    </section>
+  </main>
+  <footer style="background-color: #333435; height: 100px;">
+    <p style="font-style: italic; color: #ced4da;  text-align: center; padding-top: 40px;">Maked by: @CrispTeamgmail.com</p>
+  </footer>
+</body>
+</html>
