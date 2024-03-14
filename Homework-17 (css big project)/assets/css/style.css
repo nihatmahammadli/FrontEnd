@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap");
 header .all-header {
   display: flex;
   justify-content: space-between;
@@ -59,9 +59,15 @@ header .icon-1 svg {
   cursor: pointer;
 }
 header .icon-2 {
+  border: 1px solid #E0E0E0;
+  height: 48px;
+  width: 125px;
+  border-radius: 40px;
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-top: 8px;
+  padding-bottom: 5px;
 }
 header svg {
   width: 44px;
@@ -72,4 +78,205 @@ header p {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 18px;
+}
+
+main .sec-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+}
+main .sec-1 .sec-1-img img {
+  width: 740px;
+  height: 600px;
+}
+main .sec-1 .sec-1-texts {
+  margin-left: 120px;
+}
+main .sec-1 .sec-1-texts .text-1 {
+  color: #68A47F;
+  font-family: "Yellowtail";
+  font-weight: 400;
+  font-size: 28px;
+}
+main .sec-1 .sec-1-texts .text-2 {
+  margin-top: 5px;
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 56px;
+}
+main .sec-1 .sec-1-texts button {
+  padding: 20px 26px;
+  background-color: #EFD372;
+  border-radius: 16px;
+  cursor: pointer;
+  color: #274C5B;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 15px;
+  border: none;
+  display: flex;
+  gap: 8px;
+}
+main .sec-2 {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 100px;
+}
+main .sec-2 .div-2-1 {
+  position: relative;
+}
+main .sec-2 .div-2-1 img {
+  width: 500px;
+  height: 260px;
+  border-radius: 20px;
+}
+main .sec-2 .div-2-1 .text-2-1 {
+  position: absolute;
+  top: 80px;
+  left: 30px;
+  font-family: "Yellowtail";
+  font-weight: 100;
+  color: #FFF;
+  font-size: 28px;
+}
+main .sec-2 .div-2-1 .text-2-2 {
+  position: absolute;
+  top: 120px;
+  left: 31px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #FFF;
+  width: 35%;
+  font-size: 30px;
+}
+main .sec-2 .div-2-2 {
+  position: relative;
+}
+main .sec-2 .div-2-2 img {
+  width: 500px;
+  height: 260px;
+  border-radius: 20px;
+}
+main .sec-2 .div-2-2 .text-2-3 {
+  position: absolute;
+  top: 80px;
+  left: 30px;
+  font-family: "Yellowtail";
+  font-weight: 100;
+  color: #7EB693;
+  font-size: 28px;
+}
+main .sec-2 .div-2-2 .text-2-4 {
+  position: absolute;
+  top: 120px;
+  left: 30px;
+  width: 39%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #274C5B;
+  font-size: 30px;
+}
+main .sec-3 {
+  background-color: #F9F8F8;
+  display: flex;
+  align-items: center;
+}
+main .sec-3 .sec-3-img {
+  margin-left: 20px;
+}
+main .sec-3 .sec-3-img img {
+  width: 711px;
+  height: 667px;
+}
+main .sec-3 .sec-3-texts {
+  margin-top: -100px;
+}
+main .sec-3 .sec-3-texts .texts-1 {
+  font-family: "Yellowtail";
+  font-weight: 400;
+  color: #7EB693;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+main .sec-3 .sec-3-texts .texts-2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  width: 90%;
+  color: #274C5B;
+  margin-bottom: 10px;
+}
+main .sec-3 .sec-3-texts .texts-3 {
+  color: #525C60;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 165.4%;
+  margin-bottom: 15px;
+  margin-bottom: 30px;
+}
+main .sec-3 .sec-3-texts .sec-3-1 {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 10px;
+}
+main .sec-3 .sec-3-texts .sec-3-1 img {
+  border-radius: 20px;
+  width: 80px;
+  padding: 20px;
+  background-color: #FFF;
+}
+main .sec-3 .sec-3-texts .sec-3-1 .sec-3-1-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .sec-3 .sec-3-texts .sec-3-1 .sec-3-1-1 h2 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+}
+main .sec-3 .sec-3-texts .sec-3-1 .sec-3-1-1 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 165.4%;
+  color: #525C60;
+}
+main .sec-3 .sec-3-texts .sec-3-2 {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+main .sec-3 .sec-3-texts .sec-3-2 img {
+  border-radius: 20px;
+  width: 82px;
+  padding: 18px;
+  background-color: #FFF;
+}
+main .sec-3 .sec-3-texts .sec-3-2 .sec-3-1-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .sec-3 .sec-3-texts .sec-3-2 .sec-3-1-2 h2 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+}
+main .sec-3 .sec-3-texts .sec-3-2 .sec-3-1-2 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 165.4%;
+  color: #525C60;
 }/*# sourceMappingURL=style.css.map */
