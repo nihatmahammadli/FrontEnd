@@ -81,18 +81,19 @@ header p {
 }
 
 main .sec-1 {
-  display: flex;
-  justify-content: space-evenly;
+  position: relative;
   align-items: center;
   width: 100%;
   height: 600px;
 }
 main .sec-1 .sec-1-img img {
-  width: 740px;
+  width: 100%;
   height: 600px;
 }
 main .sec-1 .sec-1-texts {
-  margin-left: 120px;
+  position: absolute;
+  top: 145px;
+  left: 150px;
 }
 main .sec-1 .sec-1-texts .text-1 {
   color: #68A47F;
@@ -195,19 +196,19 @@ main .sec-3 .sec-3-img img {
   height: 667px;
 }
 main .sec-3 .sec-3-texts {
-  margin-top: -100px;
+  margin-top: -10px;
 }
 main .sec-3 .sec-3-texts .texts-1 {
   font-family: "Yellowtail";
   font-weight: 400;
   color: #7EB693;
   font-size: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 main .sec-3 .sec-3-texts .texts-2 {
   font-family: "Roboto", sans-serif;
   font-weight: 800;
-  font-size: 40px;
+  font-size: 39px;
   width: 90%;
   color: #274C5B;
   margin-bottom: 10px;
@@ -220,6 +221,7 @@ main .sec-3 .sec-3-texts .texts-3 {
   line-height: 165.4%;
   margin-bottom: 15px;
   margin-bottom: 30px;
+  width: 550px;
 }
 main .sec-3 .sec-3-texts .sec-3-1 {
   display: flex;
@@ -252,6 +254,7 @@ main .sec-3 .sec-3-texts .sec-3-1 .sec-3-1-1 p {
   color: #525C60;
 }
 main .sec-3 .sec-3-texts .sec-3-2 {
+  margin-top: 20px;
   display: flex;
   align-items: center;
   gap: 13px;
@@ -279,4 +282,304 @@ main .sec-3 .sec-3-texts .sec-3-2 .sec-3-1-2 p {
   font-weight: 400;
   line-height: 165.4%;
   color: #525C60;
+}
+main .sec-3 .sec-3-texts .sec-3-button button {
+  color: #FFF;
+  background-color: #274C5B;
+  display: flex;
+  gap: 8px;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 16px;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  align-items: center;
+  cursor: pointer;
+}
+main .sec-4 .sec-4-texts {
+  text-align: center;
+  margin-top: 100px;
+}
+main .sec-4 .sec-4-texts .text-4-1 {
+  color: #7EB693;
+  font-family: "Yellowtail";
+  font-weight: 400;
+  font-size: 36px;
+}
+main .sec-4 .sec-4-texts .text-4-2 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+}
+main .sec-4 .containers-2 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: auto;
+}
+main .sec-4 .containers-2 .con-1 {
+  width: 270px;
+  height: 410px;
+  background-color: #F9F8F8;
+  background-blend-mode: lighten;
+  border-radius: 30px;
+}
+main .sec-4 .containers-2 .con-1 .background-1 {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 400px;
+}
+main .sec-4 .containers-2 button {
+  width: 85px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 600;
+  background-color: #274C5B;
+  border-radius: 8px;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  padding: 4px 10px 4px 10px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+main .sec-4 .containers-2 img {
+  width: 270px;
+  height: 264px;
+  filter: brightness(97%);
+  margin: auto;
+}
+main .sec-4 .containers-2 h2 {
+  color: #274C5B;
+  font-weight: 600;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 20px;
+}
+main .sec-4 .containers-2 .svg-1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 228px;
+  margin: auto;
+}
+main .sec-4 .containers-2 .sec-4-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 93%;
+}
+main .sec-4 .containers-2 .sec-4-1 .p-texts {
+  display: flex;
+  gap: 5px;
+  margin-left: 20px;
+  align-items: center;
+}
+main .sec-4 .containers-2 .sec-4-1 .p-texts :first-child {
+  color: #B8B8B8;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: line-through;
+  font-size: 14px;
+}
+main .sec-4 .containers-2 .sec-4-1 .p-texts :last-child {
+  color: #274C5B;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+main .sec-4 .containers {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: auto;
+}
+main .sec-4 .containers .con-1 {
+  width: 270px;
+  height: 410px;
+  background-color: #F9F8F8;
+  background-blend-mode: lighten;
+  border-radius: 30px;
+}
+main .sec-4 .containers .con-1 .background-1 {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 400px;
+}
+main .sec-4 .containers button {
+  width: 85px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 600;
+  background-color: #274C5B;
+  border-radius: 8px;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  padding: 4px 10px 4px 10px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+main .sec-4 .containers img {
+  width: 270px;
+  height: 264px;
+  filter: brightness(97%);
+  margin: auto;
+}
+main .sec-4 .containers h2 {
+  color: #274C5B;
+  font-weight: 600;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 20px;
+}
+main .sec-4 .containers .svg-1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 228px;
+  margin: auto;
+}
+main .sec-4 .containers .sec-4-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 93%;
+}
+main .sec-4 .containers .sec-4-1 .p-texts {
+  display: flex;
+  gap: 5px;
+  margin-left: 20px;
+  align-items: center;
+}
+main .sec-4 .containers .sec-4-1 .p-texts :first-child {
+  color: #B8B8B8;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: line-through;
+  font-size: 14px;
+}
+main .sec-4 .containers .sec-4-1 .p-texts :last-child {
+  color: #274C5B;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+main .sec-4 .btn-1-div {
+  margin-top: 100px;
+}
+main .sec-4 .btn-1-div .btn-1 {
+  padding: 20px 42px;
+  background-color: #274C5B;
+  color: #FFF;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  display: flex;
+  gap: 8px;
+  margin: auto;
+}
+main .sec-5 {
+  margin-top: 122px;
+}
+main .sec-5 .background-2 {
+  background-color: #FAFAFA;
+  height: 900px;
+}
+main .sec-5 .background-2 img {
+  width: 100%;
+  height: 900px;
+}
+main .sec-5 .background-2 .all-sec {
+  margin-top: -800px;
+  text-align: center;
+  position: relative;
+}
+main .sec-5 .background-2 .all-sec .text-5-1 {
+  color: #7EB693;
+  font-weight: 400;
+  font-family: "Yellowtail";
+  font-size: 30px;
+}
+main .sec-5 .background-2 .all-sec .text-5-2 {
+  margin-top: 10px;
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+}
+main .sec-5 .background-2 .all-sec .image-2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 45px;
+}
+main .sec-5 .background-2 .all-sec .svg-3 {
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+main .sec-5 .background-2 .all-sec .text-5-3 {
+  margin: auto;
+  width: 590px;
+  color: #525C60;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 165.4%;
+  margin-bottom: 10px;
+}
+main .sec-5 .background-2 .all-sec .text-5-4 {
+  color: #274C5B;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 5px;
+}
+main .sec-5 .background-2 .all-sec .text-5-5 {
+  color: #525C60;
+  line-height: 165.4%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+main .sec-5 .background-2 .line {
+  background-color: #E0E0E0;
+  width: 710px;
+  height: 1px;
+  position: absolute;
+  top: 490px;
+  left: 300px;
+}
+main .sec-5 .background-2 .circles {
+  position: relative;
+  margin-top: 160px;
+}
+main .sec-5 .background-2 .circles .circle-texts {
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+  position: absolute;
+  left: 360px;
+  top: 35px;
+}
+main .sec-5 .background-2 .circles .circle-texts .textc-1 h2 {
+  color: #274C5B;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+main .sec-5 .background-2 .circles .circle-texts .textc-1 p {
+  font-family: "Open Sans", sans-serif;
+  color: #274C5B;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: -3px;
+}
+main .sec-5 .background-2 .circles svg {
+  width: 131px;
+  height: 131px;
+  margin-left: 20px;
+  margin-right: 20px;
 }/*# sourceMappingURL=style.css.map */
