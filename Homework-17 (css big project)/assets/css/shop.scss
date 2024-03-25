@@ -1,0 +1,1183 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap');
+$h2_fontlarim: "Roboto" , sans-serif;
+
+
+header {    
+    .all-header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        align-items: center;
+        margin-right:100px;
+        margin-left: 100px;
+    }
+    .logo-div {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        .logo-img {
+            width: 33px;
+            height: 51px;
+        }
+        h2 {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            color: #274C5B;
+            font-size: 28px;
+        }
+        .icon-bar {
+            i {
+                display: none;
+            }
+        }
+    }
+    nav {
+        margin-left: 10px;
+        margin-top: 5px;
+        a {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            color: #274C5B;
+            font-size: 18px;
+        }
+        svg{
+            cursor: pointer;
+        margin-top: 10px;
+        }
+    }
+    .icons {
+        display: flex;
+        gap: 20px;}
+    
+    .icon-1 {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+         .input-1 {
+            padding: 8px;
+            border-radius: 20px;
+            background-color: #FAFAFA;
+            width: 220px;
+            margin-top: 5px;
+        }
+        svg {
+            width: 44px;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+    }
+    .icon-2 {
+        border: 1px solid #E0E0E0;
+        height: 48px;
+        width: 125px;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 8px;
+        padding-bottom: 5px;
+    }
+    svg {
+        width: 44px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    p {
+        margin-top: 5px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
+// ! header bitti  main  balsadi
+main {
+    .sec-1 {
+        margin-top: 80px;
+        .all-sec-1 {
+            .sec-1-img {
+                position: relative;
+                img {
+                    width: 100%;
+                }
+            }
+            .sec-1-text {
+                text-align: center;
+                margin-right: 50px;
+                img {
+                    position: absolute;
+                    width: 120px;
+                    top: 305px;
+                }
+            }
+        }
+    }
+    .sec-2 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+      .div-1 {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        .div-1-1 {
+            margin: auto;
+            background-color: #F9F8F8;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            background-blend-mode: lighten;
+            width: 240px;
+            height: 345px;
+            .button-1 {
+                margin-left: 20px;
+                margin-top: 18px;
+                button {
+                    background-color: #274C5B;
+                    border-radius: 8px;
+                    border: none;
+                    color: #FFF;
+                    padding: 7px 12px;
+                    cursor: pointer;
+                }
+            }
+            .img-1 {
+                text-align: center;
+                img {
+                    width: 220px;
+                    filter: brightness(98%);
+                    cursor: pointer;
+                }
+            }
+            .text-1 {
+                h2 {
+                    color: #274C5B;
+                    font-family: $h2_fontlarim;
+                    font-weight: 600;
+                    font-size: 18px;
+                    margin-left: 20px;
+                }
+            }
+            .svg-1 {
+                text-align: center;
+                margin-top: -6px;
+                svg {
+                    width: 200px;
+                }
+            }
+            .icon-1 {
+                margin-left: 20px;
+                width: 204px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .sell-text {
+                    display: flex;
+                    gap: 6px;
+                    align-items: center;
+                    h3 {
+                      color: #B8B8B8;
+                      font-family: "Open Sans";
+                      font-weight: 600;
+                      text-decoration: line-through;
+                      font-size: 14px;
+                    }
+                    h2 {
+                        color: #274C5B;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .div-1-2 {
+            margin: auto;
+            background-color: #F9F8F8;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            background-blend-mode: lighten;
+            width: 240px;
+            height: 345px;
+            .button-2 {
+                margin-left: 20px;
+                margin-top: 18px;
+                button {
+                    background-color: #274C5B;
+                    border-radius: 8px;
+                    border: none;
+                    color: #FFF;
+                    padding: 7px 12px;
+                    cursor: pointer;
+                }
+            }
+            .img-2 {
+                text-align: center;
+                img {
+                    width: 200px;
+                    filter: brightness(98%);
+                    cursor: pointer;
+                }
+            }
+            .text-2 {
+                h2 {
+                    color: #274C5B;
+                    font-family: $h2_fontlarim;
+                    font-weight: 600;
+                    font-size: 18px;
+                    margin-left: 20px;
+                }
+            }
+            .svg-2 {
+                text-align: center;
+                margin-top: -6px;
+                svg {
+                    width: 200px;
+                }
+            }
+            .icon-2 {
+                margin-left: 20px;
+                width: 204px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .sell-text-2 {
+                    display: flex;
+                    gap: 6px;
+                    align-items: center;
+                    h3 {
+                      color: #B8B8B8;
+                      font-family: "Open Sans";
+                      font-weight: 600;
+                      text-decoration: line-through;
+                      font-size: 14px;
+                    }
+                    h2 {
+                        color: #274C5B;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .div-1-3 {
+            margin: auto;
+            background-color: #F9F8F8;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            background-blend-mode: lighten;
+            width: 240px;
+            height: 345px;
+            .button-3 {
+                margin-left: 20px;
+                margin-top: 18px;
+                button {
+                    background-color: #274C5B;
+                    border-radius: 8px;
+                    border: none;
+                    color: #FFF;
+                    padding: 7px 12px;
+                    cursor: pointer;
+                }
+            }
+            .img-3 {
+                text-align: center;
+                img {
+                    width: 224px;
+                    filter: brightness(98%);
+                    cursor: pointer;
+                }
+            }
+            .text-3 {
+                h2 {
+                    color: #274C5B;
+                    font-family: $h2_fontlarim;
+                    font-weight: 600;
+                    font-size: 18px;
+                    margin-left: 20px;
+                }
+            }
+            .svg-3 {
+                text-align: center;
+                margin-top: -6px;
+                svg {
+                    width: 200px;
+                }
+            }
+            .icon-3 {
+                margin-left: 20px;
+                width: 204px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .sell-text-3 {
+                    display: flex;
+                    gap: 6px;
+                    align-items: center;
+                    h3 {
+                      color: #B8B8B8;
+                      font-family: "Open Sans";
+                      font-weight: 600;
+                      text-decoration: line-through;
+                      font-size: 14px;
+                    }
+                    h2 {
+                        color: #274C5B;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .div-1-4 {
+            margin: auto;
+            background-color: #F9F8F8;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            background-blend-mode: lighten;
+            width: 240px;
+            height: 345px;
+            .button-4 {
+                margin-left: 20px;
+                margin-top: 18px;
+                button {
+                    background-color: #274C5B;
+                    border-radius: 8px;
+                    border: none;
+                    color: #FFF;
+                    padding: 7px 12px;
+                    cursor: pointer;
+                }
+            }
+            .img-4 {
+                text-align: center;
+                img {
+                    width: 224px;
+                    filter: brightness(98%);
+                    cursor: pointer;
+                }
+            }
+            .text-4 {
+                h2 {
+                    color: #274C5B;
+                    font-family: $h2_fontlarim;
+                    font-weight: 600;
+                    font-size: 18px;
+                    margin-left: 20px;
+                }
+            }
+            .svg-4 {
+                text-align: center;
+                margin-top: -6px;
+                svg {
+                    width: 200px;
+                }
+            }
+            .icon-4 {
+                margin-left: 20px;
+                width: 204px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .sell-text-4 {
+                    display: flex;
+                    gap: 6px;
+                    align-items: center;
+                    h3 {
+                      color: #B8B8B8;
+                      font-family: "Open Sans";
+                      font-weight: 600;
+                      text-decoration: line-through;
+                      font-size: 14px;
+                    }
+                    h2 {
+                        color: #274C5B;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+      }  
+      .div-2 {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+        .div-2-1 {
+            margin: auto;
+            background-color: #F9F8F8;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            background-blend-mode: lighten;
+            width: 240px;
+            height: 345px;
+            .button-1 {
+                margin-left: 20px;
+                margin-top: 18px;
+                button {
+                    background-color: #274C5B;
+                    border-radius: 8px;
+                    border: none;
+                    color: #FFF;
+                    padding: 7px 12px;
+                    cursor: pointer;
+                }
+            }
+            .img-1 {
+                text-align: center;
+                img {
+                    width: 210px;
+                    filter: brightness(98%);
+                    cursor: pointer;
+                }
+            }
+            .text-1 {
+                h2 {
+                    color: #274C5B;
+                    font-family: $h2_fontlarim;
+                    font-weight: 600;
+                    font-size: 18px;
+                    margin-left: 20px;
+                }
+            }
+            .svg-1 {
+                text-align: center;
+                margin-top: -6px;
+                svg {
+                    width: 200px;
+                }
+            }
+            .icon-1 {
+                margin-left: 20px;
+                width: 204px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .sell-text {
+                    display: flex;
+                    gap: 6px;
+                    align-items: center;
+                    h3 {
+                      color: #B8B8B8;
+                      font-family: "Open Sans";
+                      font-weight: 600;
+                      text-decoration: line-through;
+                      font-size: 14px;
+                    }
+                    h2 {
+                        color: #274C5B;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .div-2-2 {
+            margin: auto;
+            background-color: #F9F8F8;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            background-blend-mode: lighten;
+            width: 240px;
+            height: 345px;
+            .button-2 {
+                margin-left: 20px;
+                margin-top: 18px;
+                button {
+                    background-color: #274C5B;
+                    border-radius: 8px;
+                    border: none;
+                    color: #FFF;
+                    padding: 7px 12px;
+                    cursor: pointer;
+                }
+            }
+            .img-2 {
+                text-align: center;
+                img {
+                    width: 170px;
+                    filter: brightness(98%);
+                    cursor: pointer;
+                }
+            }
+            .text-2 {
+                h2 {
+                    color: #274C5B;
+                    font-family: $h2_fontlarim;
+                    font-weight: 600;
+                    font-size: 18px;
+                    margin-left: 20px;
+                }
+            }
+            .svg-2 {
+                text-align: center;
+                margin-top: -6px;
+                svg {
+                    width: 200px;
+                }
+            }
+            .icon-2 {
+                margin-left: 20px;
+                width: 204px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .sell-text-2 {
+                    display: flex;
+                    gap: 6px;
+                    align-items: center;
+                    h3 {
+                      color: #B8B8B8;
+                      font-family: "Open Sans";
+                      font-weight: 600;
+                      text-decoration: line-through;
+                      font-size: 14px;
+                    }
+                    h2 {
+                        color: #274C5B;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .div-2-3 {
+            margin: auto;
+            background-color: #F9F8F8;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            background-blend-mode: lighten;
+            width: 240px;
+            height: 345px;
+            .button-3 {
+                margin-left: 20px;
+                margin-top: 18px;
+                button {
+                    background-color: #274C5B;
+                    border-radius: 8px;
+                    border: none;
+                    color: #FFF;
+                    padding: 7px 12px;
+                    cursor: pointer;
+                }
+            }
+            .img-3 {
+                text-align: center;
+                img {
+                    width: 194px;
+                    filter: brightness(98%);
+                    cursor: pointer;
+                }
+            }
+            .text-3 {
+                h2 {
+                    color: #274C5B;
+                    font-family: $h2_fontlarim;
+                    font-weight: 600;
+                    font-size: 18px;
+                    margin-left: 20px;
+                }
+            }
+            .svg-3 {
+                text-align: center;
+                margin-top: -6px;
+                svg {
+                    width: 200px;
+                }
+            }
+            .icon-3 {
+                margin-left: 20px;
+                width: 204px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .sell-text-3 {
+                    display: flex;
+                    gap: 6px;
+                    align-items: center;
+                    h3 {
+                      color: #B8B8B8;
+                      font-family: "Open Sans";
+                      font-weight: 600;
+                      text-decoration: line-through;
+                      font-size: 14px;
+                    }
+                    h2 {
+                        color: #274C5B;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .div-2-4 {
+            margin: auto;
+            background-color: #F9F8F8;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            background-blend-mode: lighten;
+            width: 240px;
+            height: 345px;
+            .button-4 {
+                margin-left: 20px;
+                margin-top: 18px;
+                button {
+                    background-color: #274C5B;
+                    border-radius: 8px;
+                    border: none;
+                    color: #FFF;
+                    padding: 7px 12px;
+                    cursor: pointer;
+                }
+            }
+            .img-4 {
+                text-align: center;
+                img {
+                    width: 210px;
+                    filter: brightness(98%);
+                    cursor: pointer;
+                }
+            }
+            .text-4 {
+                h2 {
+                    color: #274C5B;
+                    font-family: $h2_fontlarim;
+                    font-weight: 600;
+                    font-size: 18px;
+                    margin-left: 20px;
+                }
+            }
+            .svg-4 {
+                text-align: center;
+                margin-top: -6px;
+                svg {
+                    width: 200px;
+                }
+            }
+            .icon-4 {
+                margin-left: 20px;
+                width: 204px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .sell-text-4 {
+                    display: flex;
+                    gap: 6px;
+                    align-items: center;
+                    h3 {
+                      color: #B8B8B8;
+                      font-family: "Open Sans";
+                      font-weight: 600;
+                      text-decoration: line-through;
+                      font-size: 14px;
+                    }
+                    h2 {
+                        color: #274C5B;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+      }
+      .div-3 {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+        .div-3-1 {
+            margin: auto;
+            background-color: #F9F8F8;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            background-blend-mode: lighten;
+            width: 240px;
+            height: 345px;
+            .button-1 {
+                margin-left: 20px;
+                margin-top: 18px;
+                button {
+                    background-color: #274C5B;
+                    border-radius: 8px;
+                    border: none;
+                    color: #FFF;
+                    padding: 7px 12px;
+                    cursor: pointer;
+                }
+            }
+            .img-1 {
+                text-align: center;
+                img {
+                    width: 184px;
+                    filter: brightness(98%);
+                    cursor: pointer;
+                }
+            }
+            .text-1 {
+                h2 {
+                    color: #274C5B;
+                    font-family: $h2_fontlarim;
+                    font-weight: 600;
+                    font-size: 18px;
+                    margin-left: 20px;
+                }
+            }
+            .svg-1 {
+                text-align: center;
+                margin-top: -6px;
+                svg {
+                    width: 200px;
+                }
+            }
+            .icon-1 {
+                margin-left: 20px;
+                width: 204px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .sell-text {
+                    display: flex;
+                    gap: 6px;
+                    align-items: center;
+                    h3 {
+                      color: #B8B8B8;
+                      font-family: "Open Sans";
+                      font-weight: 600;
+                      text-decoration: line-through;
+                      font-size: 14px;
+                    }
+                    h2 {
+                        color: #274C5B;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .div-3-2 {
+            margin: auto;
+            background-color: #F9F8F8;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            background-blend-mode: lighten;
+            width: 240px;
+            height: 345px;
+            .button-2 {
+                margin-left: 20px;
+                margin-top: 18px;
+                button {
+                    background-color: #274C5B;
+                    border-radius: 8px;
+                    border: none;
+                    color: #FFF;
+                    padding: 7px 12px;
+                    cursor: pointer;
+                }
+            }
+            .img-2 {
+                text-align: center;
+                img {
+                    width: 204px;
+                    filter: brightness(98%);
+                    cursor: pointer;
+                }
+            }
+            .text-2 {
+                h2 {
+                    color: #274C5B;
+                    font-family: $h2_fontlarim;
+                    font-weight: 600;
+                    font-size: 18px;
+                    margin-left: 20px;
+                }
+            }
+            .svg-2 {
+                text-align: center;
+                margin-top: -6px;
+                svg {
+                    width: 200px;
+                }
+            }
+            .icon-2 {
+                margin-left: 20px;
+                width: 204px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .sell-text-2 {
+                    display: flex;
+                    gap: 6px;
+                    align-items: center;
+                    h3 {
+                      color: #B8B8B8;
+                      font-family: "Open Sans";
+                      font-weight: 600;
+                      text-decoration: line-through;
+                      font-size: 14px;
+                    }
+                    h2 {
+                        color: #274C5B;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .div-3-3 {
+            margin: auto;
+            background-color: #F9F8F8;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            background-blend-mode: lighten;
+            width: 240px;
+            height: 345px;
+            .button-3 {
+                margin-left: 20px;
+                margin-top: 18px;
+                button {
+                    background-color: #274C5B;
+                    border-radius: 8px;
+                    border: none;
+                    color: #FFF;
+                    padding: 7px 12px;
+                    cursor: pointer;
+                }
+            }
+            .img-3 {
+                text-align: center;
+                img {
+                    width: 174px;
+                    filter: brightness(98%);
+                    cursor: pointer;
+                }
+            }
+            .text-3 {
+                h2 {
+                    color: #274C5B;
+                    font-family: $h2_fontlarim;
+                    font-weight: 600;
+                    font-size: 18px;
+                    margin-left: 20px;
+                }
+            }
+            .svg-3 {
+                text-align: center;
+                margin-top: -6px;
+                svg {
+                    width: 200px;
+                }
+            }
+            .icon-3 {
+                margin-left: 20px;
+                width: 204px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .sell-text-3 {
+                    display: flex;
+                    gap: 6px;
+                    align-items: center;
+                    h3 {
+                      color: #B8B8B8;
+                      font-family: "Open Sans";
+                      font-weight: 600;
+                      text-decoration: line-through;
+                      font-size: 14px;
+                    }
+                    h2 {
+                        color: #274C5B;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .div-3-4 {
+            margin: auto;
+            background-color: #F9F8F8;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            background-blend-mode: lighten;
+            width: 240px;
+            height: 345px;
+            .button-4 {
+                margin-left: 20px;
+                margin-top: 18px;
+                button {
+                    background-color: #274C5B;
+                    border-radius: 8px;
+                    border: none;
+                    color: #FFF;
+                    padding: 7px 12px;
+                    cursor: pointer;
+                }
+            }
+            .img-4 {
+                text-align: center;
+                img {
+                    width: 175px;
+                    filter: brightness(98%);
+                    cursor: pointer;
+                }
+            }
+            .text-4 {
+                h2 {
+                    color: #274C5B;
+                    font-family: $h2_fontlarim;
+                    font-weight: 600;
+                    font-size: 18px;
+                    margin-left: 20px;
+                }
+            }
+            .svg-4 {
+                text-align: center;
+                margin-top: -6px;
+                svg {
+                    width: 200px;
+                }
+            }
+            .icon-4 {
+                margin-left: 20px;
+                width: 204px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .sell-text-4 {
+                    display: flex;
+                    gap: 6px;
+                    align-items: center;
+                    h3 {
+                      color: #B8B8B8;
+                      font-family: "Open Sans";
+                      font-weight: 600;
+                      text-decoration: line-through;
+                      font-size: 14px;
+                    }
+                    h2 {
+                        color: #274C5B;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+      }
+    }
+    .sec-10 {
+        margin-bottom: 200px;
+        .img-sec-10 {
+            text-align: center;
+            img {
+                width: 1000px;
+                height: 220px;
+                border-radius: 20px;
+            }
+        }
+        .sec-texts-10 {
+            display: flex;
+            justify-content: space-between;
+            width: 890px;
+            margin: auto;
+            margin-top: -157px;
+            align-items: center;
+            h2 {
+                color: #FFF;
+                font-family: $h2_fontlarim;
+                font-weight: 800;
+                font-size: 35px;
+                width: 260px;
+            }
+            .Subscribe {
+                form {
+                    input {
+                        padding: 20px 88px 20px 20px;
+                        border-radius: 15px;
+                        border: none;
+                        font-style: italic;
+                        font-family: $h2_fontlarim;
+                        color: #ABABAB;
+                        font-weight: 400;
+                        font-size: 12px;
+                    }
+                }
+                button {
+                    background-color: #274C5B;
+                    color: #FFF;
+                    font-family: $h2_fontlarim;
+                    font-weight: 700;
+                    border: none;
+                    border-radius: 16px;
+                    padding: 19px 50px;
+                }
+            }
+        }
+    }
+}
+// ! main bitti footer baslasdi
+footer {
+    margin-top: -40px;
+    .all-footer {
+        display: flex;
+        justify-content: space-between;
+        width: 65%;
+        margin: auto;
+        .div-1 {
+            text-align: right;
+            padding-right: 40px;
+            .text-1-1 {
+                color: #274C5B;
+                font-family: $h2_fontlarim;
+                font-weight: 700;
+                font-size: 25px;
+                margin-bottom: 20px;
+            }
+            .div-texts {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                .h2-texts {
+                    color: #525C60;
+                    font-weight: 700;
+                    font-family: "Open Sans";
+                    font-size: 13px;
+                    line-height: 165%;
+                }
+                .p-texts {
+                    color: #525C60;
+                    font-family: "Open Sans";
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 165%;
+                    width: 170px;
+                }
+            }
+        }
+    }
+    .div-2 {        
+        width: 100%;              
+        border-left: 1px solid #D4D4D4;
+        height: 240px;
+        border-right: 1px solid #D4D4D4;
+        .div-all-2 {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            text-align: center; 
+      
+        .div-2-1 {
+            display: flex;
+            align-items: center;
+            margin: auto;
+            gap: 6px;
+            h2 {
+                color: #274C5B;
+                font-family: $h2_fontlarim;
+                font-weight: 700;
+                font-size: 29px;
+            }
+            img {
+                width: 35px;
+            }
+        }
+        .div-2-2 {
+            p {
+                width: 86%;
+                color: #525C60;
+                font-family: "Open Sans";
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 165.4%;
+                margin: auto;
+            }
+        }
+        .div-2-3 {
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            gap: 12px;
+            svg {
+                width: 45px;
+                cursor: pointer;
+            }
+          }
+       }
+    }
+    .div-3 {
+        padding-left: 40px;
+        text-align: left;
+        .div-3-1 {
+            h2 {
+                width: 150px;
+                color: #274C5B;
+                color: #274C5B;
+                font-size: 22px;
+                font-family: $h2_fontlarim;
+
+            }
+        }
+        .div-3-2 {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 25px;
+            p {
+                width: 150px;
+                color: #525C60;
+                font-family: "Open Sans";
+                font-weight: 400;
+                font-size: 13px;
+            }
+        }
+    }
+    .footer-2 {
+        .line-1 {
+            margin-top: 80px;
+            width: 100%;
+            height: 1px;
+            background-color: #D4D4D4;
+        }
+        p {
+            color: #525C60;
+            font-family: "Open Sans";
+            text-align: center;
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 165.4%;
+            margin-bottom: 10px;
+        }
+        span {
+            color: #525C60;
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 165.4%;
+        }
+    }
+}
+// ! THE END SUKUR YA RABBI

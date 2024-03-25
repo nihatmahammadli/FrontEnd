@@ -1,0 +1,57 @@
+/* 
+@media only screen and (max-width: 768px) {
+header {
+    width: 100%;
+}
+nav {
+    display: none;
+}
+header .all-header {
+    display: flex;
+    flex-direction: column;
+}
+header .all-header .logo-div{
+    margin-right: 80%;
+}
+header .all-header .logo-div  .icon-bar i{
+    display: block;
+    font-size: 30px;
+    margin-left: 10px;
+}
+header .all-header .icon-bar {
+    margin-right: 80%;
+}
+.sec-1 {
+    display: none;
+}
+main .sec-2 {
+    display: none;
+}
+main .sec-3 {
+    display: none;
+}
+main .sec-4 {
+    display: none;
+}
+main .sec-5 {
+    display: none;
+}
+main .sec-6 {
+    display: none;
+}
+main .sec-7 {
+    display: none;
+}
+main .sec-8 {
+display: none;
+}
+main .sec-9 {
+    display: none;
+}
+main .sec-10 {
+    display: none;
+}
+footer {
+    display: none;
+}
+} */

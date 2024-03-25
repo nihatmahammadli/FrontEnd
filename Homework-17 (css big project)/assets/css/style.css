@@ -23,6 +23,9 @@ header .logo-div h2 {
   color: #274C5B;
   font-size: 28px;
 }
+header .logo-div .icon-bar i {
+  display: none;
+}
 header nav {
   margin-left: 10px;
   margin-top: 5px;
@@ -72,6 +75,7 @@ header .icon-2 {
 header svg {
   width: 44px;
   margin-top: 5px;
+  cursor: pointer;
 }
 header p {
   margin-top: 5px;
